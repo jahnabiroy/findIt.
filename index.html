@@ -1,238 +1,241 @@
-<!doctype html>
-<html lang="en">
 
+ <!-- 0.8333333333333334, -1.125 --><!doctype html>
+<!-- -1.0, 0.5833333333333334 --><html lang="en">
+<!-- -0.75, 1.85 -->
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/line-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Find the Animal</title>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            document.querySelector('.overlay-2').addEventListener('click', function(event) {
-                window.location.href = 'https://cheezburger.com/6349573/20-programming-memes-thatll-trigger-any-developer'
-            });
-        });
-    </script>
-
-    <!--navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black" data-aos="fade-down">
-        <div class="container">
-            <a class="navbar-brand" style="font-size: x-large;" href="#">find.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">You</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">There</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Yet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">?!</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section id="home" class="bg-cover hero-section" style="background-image: url(galaxy.png);">
-        <div class="overlay"></div>
-        <div class="container text-white text-center">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="display-4" data-aos="zoom-in">Find the Dots<br>
-                        & Plot the Animal</h1>
-                    <p class="my-4" data-aos="fade-up" style="font-size: larger;">Your job is to scrape the data points from this website<br>
-                        and plot it using your favourite programming language.</p>
-                    <p data-aos="fade-up" class="btn btn-main">All the Best!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h1>Get Hunting!</h1>
-                    <div class="divider"></div>
-                    <p>This is to bring to your attention to the fact that you will get a 2D plot. So, you should look out for numbers in pairs<br>
-                        This might not be as obvious as you think it is!
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4" data-aos="zoom-in">
-                    <div class="service">
-                        <div class="service-img">
-                            <img src="img/image_1.jpg" alt="">
-                            <div class="icon"><i class="icon-browser"></i></div>
-                        </div>
-                        <h5 class="mt-5 pt-4"> Did you know? </h5>
-                        <div>The term "bug" was coined by Grace Hopper in 1947 when she discovered a moth trapped in a relay of the Harvard Mark II computer. This was the first documented computer bug.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="zoom-in">
-                    <div class="service">
-                        <div class="service-img">
-                            <img src="img/image_2.jpg" alt="">
-                            <div class="icon"><i class="icon-bargraph"></i></div>
-                        </div>
-                        <h5 class="mt-5 pt-4">Another one!</h5>
-                        <p>The HTTP 404 error, indicating that a web page cannot be found, is named after Room 404 at CERN, where the World Wide Web was born. This room housed the original web server.</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="zoom-in">
-                    <div class="service">
-                        <div class="service-img">
-                            <img src="img/image_3.jpg" alt="">
-                            <div class="icon"><i class="icon-camera"></i></div>
-                        </div>
-                        <h5 class="mt-5 pt-4">Just another one before you leave!</h5>
-                        <p>The Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) is a famous cheat code that originated in the 1986 video game Gradius by Konami. It has since been used in numerous other games and software applications.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="5GhvKL d-none">
-        X,Y; 
-        0,5; 0.5,5.75; 1,6; 2,6; 2.75,5.5; 2.75, 4.75; 3,4; 4,3; //
-        5,2; 5.5,1; 5,0; 5.5,1; 6.15,0.25; 6.7,0.5; 6.5,-0.5; //
-        6,-1; 5,-1.75; 4,-1; 3,-1; 2,-1; 1,-1; 0,-1.75; -1,-1 //
-        -1.75,-0.5; -1.5,0; -1.25,1; -1, 0.75; -1,0.25; -1,1.5 //
-        -0.75,1.85; -0.25,2.25; 0.15,3; 0.25,4; 0,5 //
-    </div>
-
-    <section id="about" class="bg-cover" style="background-image: url(img/cover_3.jpg);">
-        <div class="overlay"></div>
-        <div class="container text-white text-center">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <div>Did you know most of them? Well, that's great.</div>
-                    <div class="divider"></div>
-                    <h1>But did you find the points yet?</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="features" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <div class="divider"></div>
-                    <h2>A good developer would not waste his/her time here. Or would they?
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--blog-->
-    <section id="blog" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h1>Meme Corner</h1>
-                    <div class="divider"></div>
-                    <p> If you have reached this far, might as well entertain yourself with some of these!
-                    </p>
-                </div>
-            </div>
-            <div class="row text-start">
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="meme4.png" alt="">
-                    <div class="mt-4">
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="meme2.jpeg" alt="">
-                    <div class="mt-4">
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="meme3.webp" alt="">
-                    <div class="mt-4">
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="meme5.jpg" alt="">
-                    <div class="mt-4">
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="image-container">
-                        <img src="meme6.jpg" alt="Meme">
-                        <div class="overlay-2">
-                            <p class="text-start m-5 text-xl text-white text-bold">
-                                (0,5) <br/>
-                                (0.5,5.75) <br/>
-                                (1,6) <br/>
-                                (2.75,5.5) <br/>
-                                (2.75, 4.75) <br/>
-                                (3,4) <br/>
-                                (4,3) <br/>
-                                ....... <br/>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="meme1.png" alt="">
-                    <div class="mt-4">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--footer-->
-    <footer class="py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="mb-0" style="font-weight: bold;">.find</h2>
-                </div>
-                <div class="col-md-6 text-md-end" style="font-weight: 900; font-size: x-large;">
-                    Thanks!
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/app.js"></script>
-</body>
-
-</html>
+    <!-- 5.5, 1.0 --><!-- -1.625, -0.25 -->    <!-- Required meta tags -->
+   <!-- 5.333333333333333, 1.3333333333333335 -->    <meta charset="utf-8">
+   <!-- 2.75, 5.375 -->    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+       <!-- Bootstrap CSS -->
+    <!-- 0.0, 0.0 --><!-- 0.21666666666666667, 3.6666666666666665 -->    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">>
+   <!-- 0.2, 3.5 -->        
+           <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- 0.18333333333333332, 3.3333333333333335 -->
+    <!-- -1.6666666666666667, -0.33333333333333337 -->    <link rel="stylesheet" href="css/line-icons.css">
+    <!-- -1.1666666666666667, 0.9166666666666666 --><!-- 2.9583333333333335, 4.125 -->    <link rel="stylesheet" href="css/style.css">
+   
+    <!-- 1.6666666666666667, -1.0 --><!-- -0.6666666666666666, -1.25 -->    <title>Find the Animal</title>
+   </head>
+    <!-- -0.11666666666666667, 2.5 -->
+    <!-- 2.8333333333333335, -1.0 --><body data-bs-spy="scroll" data-bs-target=".navbar">
+       <script>
+           window.addEventListener('DOMContentLoaded', (event) => {
+    <!-- 0.25, 4.0 -->            document.querySelector('.overlay-2').addEventListener('click', function(event) {
+                   window.location.href = 'https://cheezburger.com/6349573/20-programming-memes-thatll-trigger-any-developer'
+               });
+           });
+       </script>
+    <!-- 3.0, 4.0 --><!-- 0.0, -1.75 -->
+       <!--navbar-->
+       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black" data-aos="fade-down">
+    <!-- 6.241666666666667, 0.2916666666666667 --><!-- 1.6666666666666665, 6.0 -->        <div class="container">
+               <a class="navbar-brand" style="font-size: x-large;" href="#">find.</a>
+    <!-- 0.16666666666666669, 4.333333333333333 -->            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- 6.15, 0.25 --><!-- 6.7, 0.5 -->  
+                   <span class="navbar-toggler-icon"></span>
+   <!-- -0.3333333333333333, -1.5 -->            </button>
+   <!-- -1.0, 1.5 -->            <div class="collapse navbar-collapse" id="navbarNav">
+   <!-- 0.08333333333333331, 2.875 -->                <ul class="navbar-nav ms-auto">
+                       <li class="nav-item">
+   <!-- 2.5, -1.0 -->                        <a class="nav-link" href="#home">Are</a>
+                       </li>
+    <!-- -0.875, 1.675 -->                    <li class="nav-item">
+    <!-- 0.15, 3.0 -->                        <a class="nav-link" href="#services">You</a>
+   <!-- 0.0, 0.0 -->                    </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#about">There</a>
+   <!-- -1.0, 1.2916666666666667 -->                    </li>
+                       <li class="nav-item">
+    <!-- 3.6666666666666665, -1.0 --><!-- -0.8333333333333334, 1.7333333333333334 -->                        <a class="nav-link" href="#features">Yet</a>
+                       </li>
+   <!-- 1.5, -1.0 -->                    <li class="nav-item">
+   <!-- -0.5, 2.05 -->                        <a class="nav-link" href="#blog">?!</a>
+   <!-- 2.75, 5.125 -->                    </li>
+                   </ul>
+               </div>
+    <!-- 3.833333333333333, 3.166666666666667 -->        </div>
+    <!-- -1.125, 0.875 --><!-- 0.0, 0.0 -->    </nav>
+   
+   <!-- 5.5, -1.375 -->    <section id="home" class="bg-cover hero-section" style="background-image: url(galaxy.png);">
+   <!-- -0.04999999999999999, 2.625 -->        <div class="overlay"></div>
+           <div class="container text-white text-center">
+    <!-- 0.0, 0.0 --><!-- 5.083333333333333, 1.8333333333333333 -->            <div class="row">
+                   <div class="col-12">
+                       <h1 class="display-4" data-aos="zoom-in">Find the Dots<br>
+   <!-- 6.533333333333333, -0.33333333333333326 -->                        & Plot the Animal</h1>
+                       <p class="my-4" data-aos="fade-up" style="font-size: larger;">Your job is to scrape the data points from this website<br>
+    <!-- -0.9583333333333334, 1.5583333333333333 -->                        and plot it using your favourite programming language.</p>
+                       <p data-aos="fade-up" class="btn btn-main">All the Best!</p>
+    <!-- 0.0, 0.0 -->                </div>
+   <!-- 0.0, 0.0 -->            </div>
+   <!-- 6.0, -1.0 -->        </div>
+   <!-- 0.8333333333333333, 5.916666666666667 -->    </section>
+   
+    <!-- 0.0, 0.0 -->    <section id="services" class="text-center">
+           <div class="container">
+    <!-- X, Y -->            <div class="row">
+    <!-- 6.5, -0.5 -->                <div class="col-12 section-intro text-center" data-aos="fade-up">
+   <!-- 2.0, -1.0 -->                    <h1>Get Hunting!</h1>
+   <!-- 5.166666666666667, 1.6666666666666667 -->                    <div class="divider"></div>
+   <!-- 5.716666666666667, 0.75 -->                    <p>This is to bring to your attention to the fact that you will get a 2D plot. So, you should look out for numbers in pairs<br>
+                           This might not be as obvious as you think it is!
+                       </p>
+    <!-- 0.08333333333333334, 4.666666666666667 -->                </div>
+   <!-- 0.041666666666666685, 4.833333333333333 -->            </div>
+               <div class="row g-4">
+                   <div class="col-md-4" data-aos="zoom-in">
+    <!-- -1.0, 0.4166666666666667 --><!-- 6.566666666666666, -0.16666666666666663 -->                    <div class="service">
+                           <div class="service-img">
+                               <img src="img/image_1.jpg" alt="">
+    <!-- -1.5, -0.6666666666666667 -->                            <div class="icon"><i class="icon-browser"></i></div>
+    <!-- -1.5833333333333333, -0.16666666666666669 -->                        </div>
+   <!-- 5.5, 1.0 -->                        <h5 class="mt-5 pt-4"> Did you know? </h5>
+   <!-- 1.0, 6.0 -->                        <div>The term "bug" was coined by Grace Hopper in 1947 when she discovered a moth trapped in a relay of the Harvard Mark II computer. This was the first documented computer bug.
+                           </div>
+    <!-- -1.4583333333333333, 0.16666666666666666 --><!-- -1.2916666666666667, 0.8333333333333333 -->                    </div>
+                   </div>
+   <!-- 2.75, 5.5 -->                <div class="col-md-4" data-aos="zoom-in">
+   <!-- 0.0, 0.0 -->                    <div class="service">
+                           <div class="service-img">
+    <!-- 5.083333333333333, 0.16666666666666666 -->                            <img src="img/image_2.jpg" alt="">
+    <!-- 5.333333333333333, -1.5 -->                            <div class="icon"><i class="icon-bargraph"></i></div>
+                           </div>
+   <!-- 0.016666666666666663, 2.75 -->                        <h5 class="mt-5 pt-4">Another one!</h5>
+   <!-- 5.5, 1.0 -->                        <p>The HTTP 404 error, indicating that a web page cannot be found, is named after Room 404 at CERN, where the World Wide Web was born. This room housed the original web server.</p>
+                       </div>
+    <!-- 5.0, 0.0 -->                </div>
+    <!-- 0.0, 0.0 -->                <div class="col-md-4" data-aos="zoom-in">
+   <!-- -0.18333333333333335, 2.375 -->                    <div class="service">
+                           <div class="service-img">
+    <!-- 5.5, 1.0 -->                            <img src="img/image_3.jpg" alt="">
+    <!-- -1.375, 0.5 -->                            <div class="icon"><i class="icon-camera"></i></div>
+    <!-- -0.6666666666666666, 1.9166666666666667 -->                        </div>
+                           <h5 class="mt-5 pt-4">Just another one before you leave!</h5>
+                           <p>The Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) is a famous cheat code that originated in the 1986 video game Gradius by Konami. It has since been used in numerous other games and software applications.</p>
+   <!-- -1.0, 0.25 -->                    </div>
+                   </div>
+    <!-- 3.166666666666667, -1.0 -->            </div>
+    <!-- -1.0833333333333333, 0.8333333333333334 -->        </div>
+   <!-- 1.5, 6.0 -->    </section>
+   
+    <!-- 0.0, 0.0 --><!-- -1.0, 0.75 -->    <div class="5GhvKL d-none">
+   <!-- 0.0, 0.0 -->        X,Y; 
+   <!-- 0.0, 0.0 -->        0,5; 0.5,5.75; 1,6; 2,6; 2.75,5.5; 2.75, 4.75; 3,4; 4,3; //
+   <!-- 2.3333333333333335, -1.0 -->        5,2; 5.5,1; 5,0; 5.5,1; 6.15,0.25; 6.7,0.5; 6.5,-0.5; //
+           6,-1; 5,-1.75; 4,-1; 3,-1; 2,-1; 1,-1; 0,-1.75; -1,-1 //
+           -1.75,-0.5; -1.5,0; -1.25,1; -1, 0.75; -1,0.25; -1,1.5 //
+           -0.75,1.85; -0.25,2.25; 0.15,3; 0.25,4; 0,5 //
+       </div>
+    <!-- 0.5, 5.75 -->
+   <!-- 0.0, 0.0 -->    <section id="about" class="bg-cover" style="background-image: url(img/cover_3.jpg);">
+           <div class="overlay"></div>
+    <!-- 0.0, 0.0 --><!-- 0.16666666666666674, -1.625 -->        <div class="container text-white text-center">
+   <!-- 0.15, 3.0 -->            <div class="row">
+                   <div class="col-12 section-intro text-center" data-aos="fade-up">
+                       <div>Did you know most of them? Well, that's great.</div>
+    <!-- -0.33333333333333337, 2.1833333333333336 -->                    <div class="divider"></div>
+    <!-- -0.8333333333333333, -1.125 -->                    <h1>But did you find the points yet?</h1>
+                   </div>
+    <!-- 0.23333333333333334, 3.833333333333333 --><!-- 4.166666666666667, -1.125 -->            </div>
+           </div>
+       </section>
+   
+    <!-- -0.5, -1.375 -->    <section id="features" class="text-center">
+    <!-- -0.7916666666666667, 1.7916666666666667 -->        <div class="container">
+    <!-- -1.25, 1.0 -->            <div class="row">
+    <!-- 5.333333333333333, 0.6666666666666667 --><!-- 2.875, 4.375 -->                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                       <div class="divider"></div>
+                       <h2>A good developer would not waste his/her time here. Or would they?
+                       </h2>
+    <!-- 0.0, -1.75 -->                </div>
+   <!-- 0.16666666666666666, 3.1666666666666665 -->            </div>
+           </div>
+       </section>
+   
+    <!-- -1.5416666666666667, -0.08333333333333337 -->    <!--blog-->
+   <!-- 0.0, 0.0 -->    <section id="blog" class="bg-light">
+           <div class="container">
+   <!-- 3.8333333333333335, -1.0 -->            <div class="row">
+                   <div class="col-12 section-intro text-center" data-aos="fade-up">
+    <!-- 0.125, 4.5 -->                    <h1>Meme Corner</h1>
+                       <div class="divider"></div>
+                       <p> If you have reached this far, might as well entertain yourself with some of these!
+                       </p>
+    <!-- -0.4166666666666667, 2.1166666666666667 -->                </div>
+               </div>
+               <div class="row text-start">
+                   <div class="col-md-4" data-aos="fade-up">
+    <!-- 0.0, 0.0 -->                    <img src="meme4.png" alt="">
+                       <div class="mt-4">
+                       </div>
+    <!-- -1.5, 0.0 --><!-- 3.6666666666666665, 3.3333333333333335 -->                </div>
+   <!-- 6.6, 0.0 -->                <div class="col-md-4" data-aos="fade-up">
+                       <img src="meme2.jpeg" alt="">
+   <!-- -1.0416666666666667, 0.7916666666666667 -->                    <div class="mt-4">
+                       </div>
+                   </div>
+    <!-- -1.125, -0.9166666666666666 --><!-- 5.0, 0.0 -->                <div class="col-md-4" data-aos="fade-up">
+                       <img src="meme3.webp" alt="">
+                       <div class="mt-4">
+    <!-- 0.33333333333333337, -1.5 -->                    </div>
+    <!-- 1.0, -1.0 --><!-- 4.833333333333333, -1.625 -->                </div>
+                   <div class="col-md-4" data-aos="fade-up">
+    <!-- 6.5, -0.5 -->                    <img src="meme5.jpg" alt="">
+    <!-- 0.0, 0.0 --><!-- -1.0, -1.0 -->                    <div class="mt-4">
+   <!-- 0.3333333333333333, 5.5 -->                    </div>
+                   </div>
+    <!-- -0.75, 1.85 -->                <div class="col-md-4" data-aos="fade-up">
+   <!-- 5.166666666666667, 0.3333333333333333 -->                    <div class="image-container">
+                           <img src="meme6.jpg" alt="Meme">
+                           <div class="overlay-2">
+   <!-- -1.0, 0.6666666666666667 -->                            <p class="text-start m-5 text-xl text-white text-bold">
+   <!-- -1.0, 0.45833333333333337 -->                                (0,5) <br/>
+   <!-- 4.666666666666667, -1.5 -->                                (0.5,5.75) <br/>
+   <!-- 0.25, 4.0 -->                                (1,6) <br/>
+   <!-- 6.0, -1.0 -->                                (2.75,5.5) <br/>
+   <!-- 6.333333333333333, -0.6666666666666666 -->                                (2.75, 4.75) <br/>
+   <!-- -1.0, 0.5 -->                                (3,4) <br/>
+   <!-- -1.0, 1.5 -->                                (4,3) <br/>
+   <!-- -1.625, -0.5833333333333334 -->                                ....... <br/>
+   <!-- 3.1666666666666665, 3.8333333333333335 -->                            </p>
+                           </div>
+                       </div>
+    <!-- -1.75, -0.5 --><!-- 6.416666666666667, -0.5833333333333334 -->                    <div class="mt-4">
+                       </div>
+   <!-- -1.5, 0.0 -->                </div>
+   <!-- -0.25, 2.25 -->                <div class="col-md-4" data-aos="fade-up">
+                       <img src="meme1.png" alt="">
+                       <div class="mt-4">
+                       </div>
+                   </div>
+               </div>
+    <!-- -0.5833333333333334, 1.9833333333333334 --><!-- 2.7916666666666665, 4.625 -->        </div>
+   <!-- 6.633333333333334, 0.16666666666666669 -->    </section>
+   <!-- -1.0, 0.25 -->
+   <!-- 2.625, 5.583333333333333 -->    <!--footer-->
+       <footer class="py-4">
+    <!-- -0.16666666666666666, -1.625 --><!-- 0.0, 0.0 -->        <div class="container">
+   <!-- 0.25, 5.375 -->            <div class="row">
+                   <div class="col-md-6">
+    <!-- 2.75, 5.0 -->                    <h2 class="mb-0" style="font-weight: bold;">.find</h2>
+    <!-- 5.0, 2.0 -->                </div>
+   <!-- 3.5, -1.0 -->                <div class="col-md-6 text-md-end" style="font-weight: 900; font-size: x-large;">
+                       Thanks!
+    <!-- 0.0, 5.0 -->                </div>
+    <!-- -1.0, 0.875 --><!-- -1.0, 0.75 -->            </div>
+           </div>
+       </footer>
+   
+    <!-- 0.5833333333333334, 5.791666666666667 -->    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+           integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+       </script>
+    <!-- 1.1666666666666667, -1.0 --><!-- -1.0, 0.33333333333333337 -->    
+   <!-- 6.425000000000001, 0.375 -->    
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 0.5, -1.375 --><!-- 4.333333333333333, 2.6666666666666665 -->    <script src="js/app.js"></script>
+   <!-- 4.666666666666667, 2.3333333333333335 --></body>
+   
+   </html>
